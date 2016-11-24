@@ -2,7 +2,7 @@
 
 分享界面显示时按钮从屏幕下方弹出，带有弹簧效果
 demo：
-![Alt text][sharedView.gif]
+![](sharedView.gif)
 
 ##usage
 ```
