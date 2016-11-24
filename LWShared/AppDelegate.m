@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LWViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LWViewController *vc = [[LWViewController alloc] init];
+    self.window.rootViewController = vc;
     return YES;
 }
 

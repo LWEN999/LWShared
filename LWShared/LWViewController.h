@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LWViewController.h
 //  LWShared
 //
 //  Created by bagtree on 16/11/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LWViewController : UIViewController
 
 @end
-
