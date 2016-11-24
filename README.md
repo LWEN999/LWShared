@@ -5,8 +5,9 @@ demo：
 ![Alt text][sharedView.gif]
 
 ##usage
-```[LWSharedView show:self];
-   #pragma mark - sharedViewDelegate
+```
+[LWSharedView show:self];
+#pragma mark - sharedViewDelegate
 -(void)sharedView:(LWSharedView *)sharedV didClickedItem:(NSInteger)index
 {
     NSLog(@"按钮被点击 %ld",index);
