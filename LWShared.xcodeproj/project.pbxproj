@@ -37,6 +37,7 @@
 		888F78921DE68767000DC045 /* LWSharedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 888F78911DE68767000DC045 /* LWSharedView.m */; };
 		888F78961DE6884D000DC045 /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888F78941DE6884D000DC045 /* LWViewController.m */; };
 		888F78971DE6884D000DC045 /* LWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888F78951DE6884D000DC045 /* LWViewController.xib */; };
+		888F78991DE6B2B0000DC045 /* sharedView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 888F78981DE6B2B0000DC045 /* sharedView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		888F78931DE6884D000DC045 /* LWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
 		888F78941DE6884D000DC045 /* LWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
 		888F78951DE6884D000DC045 /* LWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWViewController.xib; sourceTree = "<group>"; };
+		888F78981DE6B2B0000DC045 /* sharedView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sharedView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		888F78311DE68696000DC045 /* LWShared */ = {
 			isa = PBXGroup;
 			children = (
+				888F78981DE6B2B0000DC045 /* sharedView.gif */,
 				888F78691DE6872E000DC045 /* sharedImage */,
 				888F78651DE686C8000DC045 /* Shared */,
 				888F78351DE68696000DC045 /* AppDelegate.h */,
@@ -353,6 +356,7 @@
 				888F78971DE6884D000DC045 /* LWViewController.xib in Resources */,
 				888F788E1DE6872E000DC045 /* photo_icon_5@2x.png in Resources */,
 				888F787D1DE6872E000DC045 /* 6-1-4-SOS照片-4.png in Resources */,
+				888F78991DE6B2B0000DC045 /* sharedView.gif in Resources */,
 				888F783D1DE68696000DC045 /* Main.storyboard in Resources */,
 				888F78851DE6872E000DC045 /* photo_icon_2@2x.png in Resources */,
 				888F78861DE6872E000DC045 /* photo_icon_2@3x.png in Resources */,
@@ -616,6 +620,7 @@
 				888F785E1DE68696000DC045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888F785F1DE68696000DC045 /* Build configuration list for PBXNativeTarget "LWSharedTests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +629,7 @@
 				888F78611DE68696000DC045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		888F78621DE68696000DC045 /* Build configuration list for PBXNativeTarget "LWSharedUITests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +638,7 @@
 				888F78641DE68696000DC045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
